@@ -1,0 +1,19 @@
+num1 = float(input())
+num2 = float(input())
+symb = input()
+if symb == "+":
+    print(num1 + num2)
+elif symb == "-":
+    print(num1 - num2)
+elif symb == "*":
+    print(num1 * num2)
+elif symb == "/" and num2 != 0:
+    print(num1 / num2)
+elif symb == "mod" and num2 != 0:
+    print(num1 % num2)
+elif symb == "pow":
+    print(num1 ** num2)
+elif symb == "div" and num2 != 0:
+    print(num1 // num2)
+else:
+    print("Деление на 0!")
