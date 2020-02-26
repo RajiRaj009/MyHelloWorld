@@ -1,0 +1,11 @@
+programmers = int(input())
+if programmers % 10 == 1 and programmers % 100 != 11:
+    print(programmers,"программист")
+elif (programmers % 10 == 2 and programmers % 100 != 12):
+    print(programmers,"программиста")
+elif (programmers % 10 == 3 and programmers % 100 != 13):
+    print(programmers,"программиста")
+elif (programmers % 10 == 4 and programmers % 100 != 14):
+    print(programmers,"программиста")
+else:
+    print(programmers,"программистов")
