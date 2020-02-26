@@ -1,0 +1,17 @@
+if form == "треугольник":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    p = (a + b + c) / 2                           # Находим полупериметр треугольника
+    S = (p * (p - a) * (p - b) * (p - c)) ** 0.5  # Находим площадь треугольника
+    print(float(S))
+if form == "прямоугольник":
+    a = int(input())
+    b = int(input())
+    S = a * b                                     # Находим площадь прямоугольника
+    print(float(S))
+if form == "круг":
+    r = int(input())
+    p = 3.14
+    S = p * (r ** 2)                              # Находим площадь круга
+    print(float(S))
