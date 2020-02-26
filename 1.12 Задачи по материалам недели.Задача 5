@@ -1,0 +1,17 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a > b > c or a >= b > c or a > b == c:
+    print(a, c, b, sep="\n")
+elif a > c > b or a >= c > b:
+    print(a, b, c, sep="\n")
+elif b > a > c or b >= a > c or b > a == c:
+    print(b, c, a, sep="\n")
+elif b > c > a or b >= c > a:
+    print(b, a, c, sep="\n")
+elif c > a > b or c >= a > b or c > a == b:
+    print(c, b, a, sep="\n")
+elif c > b > a or c >= b > a:
+    print(c, a, b, sep="\n")
+else:
+    print(a, c, b, sep="\n")
