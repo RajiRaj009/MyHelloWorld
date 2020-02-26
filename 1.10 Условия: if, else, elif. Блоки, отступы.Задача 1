@@ -1,0 +1,9 @@
+recomended = int(input())        # Рекомендуемое время сна
+notrecomended = int(input())     # Нерекомендуемое время сна
+sleeptime = int(input())         # Время сна по факту
+if sleeptime < recomended:
+    print('Недосып')
+elif sleeptime > notrecomended:
+    print('Пересып')
+else:
+    print('Это нормально')
