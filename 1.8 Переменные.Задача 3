@@ -1,0 +1,6 @@
+needsleeptime = int(input())
+sleeptime = int(input())
+sleepminutes = int(input())
+besttime = needsleeptime + sleeptime * 60 + sleepminutes
+print(besttime // 60)
+print(besttime % 60)
